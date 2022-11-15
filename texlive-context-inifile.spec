@@ -31,18 +31,8 @@ mkdir -p %{buildroot}%{_texmfdistdir}
 cp -a * %{buildroot}%{_texmfdistdir}
 
 %files
-%{_texmfdistdir}/tex
-%{_texmfdistdir}/tex/context
-%{_texmfdistdir}/tex/context/third
 %{_texmfdistdir}/tex/context/third/inifile
-%{_texmfdistdir}/tex/context/third/inifile/t-inifile.tex
-%{_texmfdistdir}/doc
-%doc %{_texmfdistdir}/doc/context
-%doc %{_texmfdistdir}/doc/context/third
 %doc %{_texmfdistdir}/doc/context/third/inifile
-%doc %{_texmfdistdir}/doc/context/third/inifile/inifile-doc.pdf
-%doc %{_texmfdistdir}/doc/context/third/inifile/inifile-demo.pdf
-%doc %{_texmfdistdir}/doc/context/third/inifile/VERSION
 
 %post -p %{_sbindir}/texlive.post
 

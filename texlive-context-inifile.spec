@@ -1,6 +1,6 @@
 Name:		texlive-context-inifile
 Version:	47085
-Release:	1
+Release:	2
 Summary:	An ini-file pretty-printer, using ConTeXt
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/context-inifile

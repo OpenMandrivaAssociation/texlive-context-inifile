@@ -3,7 +3,7 @@ Version:	47085
 Release:	2
 Summary:	An ini-file pretty-printer, using ConTeXt
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/context-inifile
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/context-inifile
 License:	gpl
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/context-inifile.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/context-inifile.doc.r%{version}.tar.xz
